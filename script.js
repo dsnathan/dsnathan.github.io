@@ -248,7 +248,7 @@ if (trackStatus.courier === "Fast n Furious") {
 		$scope.courierDetail= trackStatus.courier;
 		$scope.courierContact = trackStatus.contactNo;
 		$scope.orderImage = false;
-
+	}
 	//package processing
 	else if(trackStatus.status.description === "Waybill Imported" || trackStatus.status.description === "Imported waybill received in full" || trackStatus.status.description === "Acc Image Scanned In") {//change the description later
 		$scope.secondStyle = {

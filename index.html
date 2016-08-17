@@ -1,51 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta name="viewport" content="width=device-width, user-scalable=false;">
-	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
-
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-	<title>Project 1</title>
-	<link rel="stylesheet" type="text/css" href="tester-style.css">
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Goods Portal</title> 
+	 <link rel="shortcut icon" type="image/x-icon" href="http://a3.mzstatic.com/us/r30/Purple20/v4/14/54/b5/1454b5ac-201b-d6ae-037e-867570ebec3d/icon175x175.png"/>
+	<!-- bootstrap & stylesheet -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="./style.css">
+	<!-- Angular -->
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular-route.js"></script>
+	<!-- JS -->
+	<script src= "./script.js"></script>
 </head>
-<body>
-<div class="container-fluid">
-	<div class="row">
-		<div class=".col-md-6">
-			<div class="bio">
-				<h1 class="name">Daniel Nathan</h1>
-				<p class="school">University of Michigan 19'</p>
-				<p class="skills">Skills: Everything</p>
-			</div>
-		</div>
-		<div class="vertical-line">
-			
-		</div>
-		<div class=".col-md-6">
-			<div class="photo">
-				<img src="http://animalnewyork.com/wp-content/uploads/pulp-fiction-leade-gif.gif">
-			</div>
-		</div>
 
-		<!-- <div class=".col-md-6">
-			<div class="photo"></div>
-			<div class="photo">
-				 <img src="http://animalnewyork.com/wp-content/uploads/pulp-fiction-leade-gif.gif">
-			</div>
-		</div> -->
-		
-	</div>
-
-</div>
+<body ng-app ="GrouponTrackApp">
+	<div ng-view></div>
 </body>
+
 </html>
+
+
+
